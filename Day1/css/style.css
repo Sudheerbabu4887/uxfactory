@@ -1,0 +1,42 @@
+ body{
+     background: url(../N4.jpg) orange no-repeat;
+     background-color: aqua;
+   /* background-image: url("../images/4b.jpg");
+    background-repeat: repeat-x;
+    background-position: right top; */
+}
+
+h1{ 
+    text-align: center;
+    border: red 10px dashed;
+    border-radius: 20px;
+    background-color:seagreen;
+    color:white;
+    margin: 30px 50px;
+    
+}
+h2{
+    opacity: 0.4;
+    border-top: double blue 10px;
+    border-right: solid 16px green;
+    border-left: dotted red 6px;
+    border-bottom: 14px groove deeppink;
+    padding: 1%;
+    
+    
+}
+h3{
+    padding: 2%;
+    background-color:grey;
+    text-align: right;
+    margin: 30px 50px;
+    border: lime 6px groove;
+    color:orangered;
+    border-radius: 15px;
+}
+p{
+    padding: 20px;
+    border: double 8px black;
+    margin: 50px 25px;
+    
+}
