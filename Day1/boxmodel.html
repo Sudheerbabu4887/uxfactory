@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Box Model,Outset,Text example</title>
+    <style>
+        #direction1 {
+            font-size: 30px;
+            color:#ffff;
+            background-color: seagreen;
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            text-align: right;
+            text-decoration: none;
+            text-transform: capitalize;
+            text-shadow: 3px 3px red;
+        }
+
+        body {
+            background-color: cornflowerblue;
+        }
+
+        p {
+            color: lightgrey;
+            background-color: navy;
+            text-align: justify;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-indent: 25px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px rgb(255, 0, 0);
+            font-family: calibri, "Times New Roman", monospace, arial;
+            font-style: oblique;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        h1 {
+            border: solid 50px greenyellow;
+            border-radius: 24px;
+            padding: 40px;
+            margin: 20px 30px;
+            outline: red dashed 5px;
+            outline-offset: inherit;
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        footer{
+            font-size: 30px;
+            border: gold 5px solid;
+            position: fixed;
+            left: 0;
+            bottom: 5%;
+            width: 99%;
+            background-color: saddlebrown;
+            color: white;
+            text-align: center;}
+    </style>
+</head>
+
+<body>
+    <h1>Box Model,Outline,Text</h1>
+    <p>
+        HDFC Bank Limited is an Indian banking and financial services company, headquartered in Mumbai, Maharashtra.
+        HDFC Bank is India’s largest private sector bank by assets and by market capitalisation as of April 2021. It is
+        the third largest company by market capitalisation on the Indian stock exchanges.</p>
+    <p id="direction1">Direction right to left</p>
+    <footer>
+        CopyRight &copy; Sudheer
+    </footer>
+</body>
+
+</html>
