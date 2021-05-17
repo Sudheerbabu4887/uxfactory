@@ -1,9 +1,151 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sample</title>
+        <title>example2</title>
+        <style>
+            .tab1{
+                border:solid 1px;
+                width: 49%;
+                float: left;
+            }
+            tr:active{
+                background-color: tomato;
+            }
+            h2{
+                padding-top: 40px;
+                /* float: left;*/
+                clear:both; 
+            }
+            tr:hover{
+                background-color: teal;
+            }
+            td{
+                height: 40px;
+                border-bottom:solid 1px;
+                text-align: center;
+            }
+            th{
+                padding:10px;
+                text-align: center;
+                border: solid 1px;
+                background-color: aqua;
+                color: black;
+            }
+            .tab2   {
+                border:solid 2px;
+                float: right;
+                width: 49%;
+                margin-left: 1px;
+            }
+            ul.Cars{
+                font-weight: bold;
+                list-style-type: square;
+                clear: both;
+            }
+            
+            .Bikes{
+                
+                padding-top: 40px;
+                float: left;
+                list-style-type: circle;
+                font-family: monospace;
+            }
+            
+        </style>
     </head>
     <body>
-        <h1>Haiii</h1>
-    </body>
+        <table class="tab1">
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>Rajesh</td>
+                <td>CSE</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Suresh</td>
+                <td>EEE</td>
+                <td>2016</td>
+            </tr>    
+            <tr>
+                <td>Anu</td>
+                <td>MBA</td>
+                <td>2020</td>
+            </tr>        
+            <tr>
+                <td>Venkat</td>
+                <td>ECE</td>
+                <td>2021</td>
+            </tr>        
+            <tr>
+                <td>Pravalika</td>
+                <td>MCA</td>
+                <td>2018</td>
+            </tr>        
+        </table>
+        <table class="tab2">
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>Sree</td>
+                <td>MBA</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Teju</td>
+                <td>CSE</td>
+                <td>2019</td>
+            </tr>        
+            <tr>
+                <td>Deepthi</td>
+                <td>ECE</td>
+                <td>2017</td>
+            </tr>        
+            <tr>
+                <td>Sankar</td>
+                <td>MCA</td>
+                <td>2015</td>
+            </tr>        
+            <tr>
+                <td>Rajesh</td>
+                <td>EEE</td>
+                <td>2017</td>
+            </tr>        
+        </table>
+        <h2>Css Lists</h2>
+        
+              <ul class="Bikes">
+                  <li>Royal Enfield Classic350</li>
+                  <li>Yamaha R15</li>
+                  <li>Yamaha FZ-S</li>
+                  <li>Pulsur Ns200</li>
+                  <li>Honda Unicorn</li>
+              </ul>
+                <ul class="Cars">
+                  <li>Fortuner</li>
+                  <li>Innova</li>
+                  <li>Eco-Sport</li>
+                  <li>Balneo</li>
+                  <li>Figo</li>
+               </ul>
+              <ol class="Mobiles">
+                  <li>Apple</li>
+                  <li>Oneplus</li>
+                  <li>Motorola</li>
+                  <li>Realme</li>
+                  <li>Redmi</li>      
+              </ol> 
+              <ol id="laptops">
+                <li>Apple</li>
+                <li>acer</li>
+                <li>dell</li>
+                <li>lenovo</li>
+           </ol>
+     </body>
 </html>

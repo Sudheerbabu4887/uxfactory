@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Links,Lists,Table</title>
+        <style>
+            body{
+                background-color:lightseagreen;
+            }
+            a:link{
+                color: tomato;
+            }
+            a:visited{
+                color: white;
+            }
+            a:active{
+                color: yellow;
+            }
+            a:hover{
+                color: blue;
+            }
+            .Bikes{
+                list-style-type:circle;
+            }
+            #laptops{
+                list-style-type:lower-alpha;
+            }
+            .Cars{
+                list-style-type: square;
+            }
+            #Mobiles{
+                list-style-type:lower-roman;
+            }
+            h1{
+                display:none;
+            }
+            table{
+                text-align: center;
+                border: solid 2px;
+                border-collapse: collapse;
+                width: 60%;
+            }
+            th{
+                border: solid 1px;
+                background-color: coral;
+                color: white;
+            }
+            td{
+                border-bottom: dotted 2px;
+            }
+            td:hover{
+                background-color:blue;
+            }
+            tr:active{
+                background-color: rgb(24, 228, 109);
+            }
+
+        </style>
+        <script>
+            function myFunction() {                
+                document.getElementById("tab1").style.display="block";
+            }
+        </script>
+    </head>
+    <body>
+        <h2>CSS Links</h2>
+        <a href="https://www.froogal.ai/" target="_blank">froogal</a><br>
+        <a href="https://uxfactory.in/" target="_blank">uxfactory</a><br>
+        <a href="https://www.google.com/" target="_blank">google</a><br>
+        <a href="https:/www.lenovo.com" target="_blank">lenovo</a><br>
+
+
+        <h2>Css Lists</h2>
+        
+              <ul class="Bikes">
+                  <li>Royal Enfield Classic350</li>
+                  <li>Yamaha R15</li>
+                  <li>Yamaha FZ-S</li>
+                  <li>Pulsur Ns200</li>
+              </ul>
+                <ul class="Cars">
+                  <li>Fortuner</li>
+                  <li>Innova</li>
+                  <li>Eco-Sport</li>
+                  <li>Figo</li>
+               </ul>
+              <ol id="Mobiles">
+                  <li>Apple</li>
+                  <li>Oneplus</li>
+                  <li>Motorola</li>
+                  <li>Realme</li>
+                </ol>
+                <ol id="laptops">
+                    <li>Apple</li>
+                    <li>acer</li>
+                    <li>dell</li>
+                    <li>lenovo</li>
+               </ol>
+               <h1 id="tab1">This is the table</h1>
+               <button type="button" onclick="myFunction()">Click Me!</button> <br><br>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Branch</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>Rajesh</td>
+                        <td>CSE</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>Suresh</td>
+                        <td>EEE</td>
+                        <td>2016</td>
+                    </tr>    
+                    <tr>
+                        <td>Anu</td>
+                        <td>MBA</td>
+                        <td>2020</td>
+                    </tr>        
+                    <tr>
+                        <td>Venkat</td>
+                        <td>ECE</td>
+                        <td>2021</td>
+                    </tr>        
+                    <tr>
+                        <td>Pravalika</td>
+                        <td>MCA</td>
+                        <td>2018</td>
+                    </tr>        
+                
+    </body>
+</html>
