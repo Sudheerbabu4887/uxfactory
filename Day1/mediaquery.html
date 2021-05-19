@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediaQueries</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        /* Extra small devices (phones, 600px and down)*/
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: red;
+            }
+            li {
+                width: 100%;
+                float: left
+            }
+        }
+        /* Small devices (portrait tablets and large phones, 600px and up)*/
+        @media only screen and (min-width: 600px) {
+            body {
+                background-color: yellow;
+            }
+            li {
+                width: 48%;
+                float: left;
+            }
+        }
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background-color: green;
+            }
+            li {
+                width: 32%;
+                float: left;
+            }
+        }
+        /* Large devices (laptops, desktops, 992px and up)
+        @media only screen and (min-width: 992px) {
+            body {
+                background-color: blue;
+            }
+        }*/
+        /* Extra large devices (large laptops and desktops, 1200px and up)*/
+        @media only screen and (min-width: 1200px) {
+            body {
+                background-color: brown;
+            }
+            li {
+                width: 24%;
+                float: left;
+            }
+        }
+        li {
+            border: 2px solid;
+            background-color: aqua;
+            text-align: center;
+            list-style-type:none;
+            font-size: 30px;
+            font-weight:900; 
+            /* padding: 20px; */ */
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML,CSS,JavaScript</h2>
+    <div class="N1">
+        <div class="N2">
+            <ul id="N3">
+                <li>Para1</li>
+                <li>Para2</li>
+                <li>Para3</li>
+                <li>Para4</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
