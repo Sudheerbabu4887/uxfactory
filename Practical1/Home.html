@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <style>
+        body {
+            margin: 0 15px;
+        }
+
+        header ul {
+            float: right;
+            margin-top: 30px;
+        }
+
+        header ul li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 10px;
+        }
+
+        header ul li a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #555;
+            margin-left: 20px;
+
+        }
+        .carousel-inner h2 {
+            font-size: 90px;
+            font-weight: bold;
+            margin-top: -250px;
+        }
+
+        .row header {
+            margin-top: 10px;
+        }
+
+        /* .row {
+            margin-top: 10px;
+        } */
+
+        .col-4 {
+            text-align: center;
+        }
+
+        .col-4 ul li {
+            list-style-type: none;
+        }
+
+        #p1 {
+            text-align: center;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .col-4 h3 {
+            margin-left: 27px;
+        }
+
+        .card img {
+            border: 7px solid white;
+        }
+
+        .card-body a {
+            border-bottom: solid 5px;
+            color: lightgray;
+            padding-bottom: 6px;
+        }
+
+        .card-body a:hover {
+            color: red;
+            /* border-bottom: 2px solid; */
+            text-decoration: none;
+        }
+        .card-body .fa {
+            color: orange;
+        }
+        .logo img {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <header>
+            <img src="../Day1/images/t1.jpg" height="100px">
+            <ul id="ul">
+                <li><a href="file:///C:/Users/91995/Desktop/uxfactory/uxfactory/Practical1/Home.html">Home</a></li>
+                <li><a href="file:///C:/Users/91995/Desktop/uxfactory/uxfactory/Practical1/Packages.html">Packages</a>
+                </li>
+                <li><a href="file:///C:/Users/91995/Desktop/uxfactory/uxfactory/Practical1/About.html">About</a></li>
+                <li><a href="file:///C:/Users/91995/Desktop/uxfactory/uxfactory/Practical1/Contact.html">Contact</a>
+                </li>
+                <li><a href="file:///C:/Users/91995/Desktop/uxfactory/uxfactory/Practical1/Account.html">Account</a>
+                </li>
+                <!-- <li><img src="../Day1/images/cart.png" height="35px" width="35px"></li> -->
+            </ul>
+        </header>
+    </div><br>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <div class="col-12">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search your Trip Plans"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container"><br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Day1/images/Goa.jpg" class="d-block w-100" alt="c1" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>GOA</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Day1/images/Char-Minar-Hyderabad.jpg" class="d-block w-100" alt="c2" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-warning">Hyderabad</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Day1/images/kerala.jpeg" class="d-block w-100" alt="c3" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-warning font-weight-bold">Kerala</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Day1/images/Araku.jpg" class="d-block w-100" alt="c4" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Araku</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Day1/images/Maharastra.jpg" class="d-block w-100" alt="c5" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Gateway of India</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Day1/images/Mysore.jpg" class="d-block w-100" alt="c5" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Mysore Palace</h2>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="contianer-fluid b1" style="background-image: url(../Day1/images/l1.jpg);">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="../Day1/images/card1.jpg" class="card-img-top" alt="img1">
+                    <div class="card-body text-center">
+                        <h5><strong>Advanture Holiday Tour Packages </strong></h5>
+                        <h2 style="color: red;">&#8377;20,999/-</h2>
+                        <p>Starting price per adult</p>
+                        <a href="#" class="font-weight-bold">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Day1/images/card2.jpg" class="card-img-top" alt="img2">
+                    <div class="card-body text-center">
+                        <h5><strong>Villa Stay Tour Packages</strong></h5>
+                        <h2 style="color: red;">&#8377;4,999/-</h2>
+                        <p>Starting price per adult</p>
+                        <a href="#" class="font-weight-bold">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Day1/images/card3.jpg" class="card-img-top" alt="img3">
+                    <div class="card-body text-center">
+                        <h5><strong>Jungle Safari Tour Packages </strong></h5>
+                        <h2 style="color: red;">&#8377;9,999/-</h2>
+                        <p>Starting price per adult</p>
+                        <a href="#" class="font-weight-bold">Book Now</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="../Day1/images/card4.jpg" class="card-img-top" alt="img4">
+                    <div class="card-body text-center">
+                        <h5><strong>Cordelia Cruises Tour Packages </strong></h5>
+                        <h2 style="color: red;">&#8377;20,999/-</h2>
+                        <p>Starting price per adult</p>
+                        <a href="#" class="font-weight-bold">Book Now</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div><br><br>
+    <h1 style="text-align: center;">Traveling Places</h1><br>
+    <div class="accordion" id="accordionExample">
+        <div class="container">
+            <img src="../Day1/images/Goa1.jpg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne" style="font-weight: bold;">
+                    #1 GOA
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Goa is a state in western India with coastlines stretching along the Arabian Sea. Its
+                        long
+                        history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century
+                        churches
+                        and the area’s tropical spice plantations. Goa is also known for its beaches, ranging from
+                        popular stretches at Baga and Palolem to those in laid-back fishing villages such as
+                        Agonda.</strong>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <img src="../Day1/images/Char-Minar-Hyderabad.jpg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                    style="font-weight: bold;">
+                    #2 Hyderabad
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Hyderabad is the capital of southern India's Telangana state.A major center
+                        for
+                        the technology industry, it's home to many upscale restaurants and shops. Its historic sites
+                        include
+                        Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic
+                        capital.
+                        The
+                        Charminar, a 16th-century mosque whose 4 arches support towering minarets, is an old city
+                        landmark
+                        near the long-standing Laad Bazaar.</strong>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <img src="../Day1/images/Araku.jpg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                    style="font-weight: bold;">
+                    #3 Araku Valley
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Araku Valley is a hill station and valley region in the southeastern Indian state of
+                        Andhra Pradesh. It's surrounded by the thick forests of the Eastern Ghats mountain
+                        range. The Tribal Museum is dedicated to the area's numerous indigenous tribes, known
+                        for their traditional Dhimsa dance, and showcases traditional handicrafts. A miniature
+                        train runs through Padmapuram Gardens, with its sculptures and tree-top huts.</strong>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="container">
+            <img src="../Day1/images/kerala.jpeg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                    style="font-weight: bold;">
+                    #4 Kerala
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea
+                        shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland
+                        are
+                        the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well
+                        as
+                        wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries,
+                        are
+                        home to elephants, langur monkeys and tigers.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="../Day1/images/Mysore.jpg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"
+                    style="font-weight: bold;">
+                    #5 Mysore Palace
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>The sprawling city of Mysore is a delight to explore thanks to its eclectic mix of fine old
+                        colonial architecture; regal Indian palaces; and lush, well-manicured gardens. While those
+                        inclined towards shopping will enjoy spending time in the city's famous silk and sandalwood
+                        bazaars, the main attraction is magnificent Mysore Palace.</strong>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="../Day1/images/Maharastra.jpg" height="500px" width="96%">
+        </div><br>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix"
+                    style="font-weight: bold;">
+                    #6 The Gateway of India
+                </button>
+            </h2>
+            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Standing an impressive 26 meters tall and overlooking the Arabian Sea, the iconic Gateway of
+                        India is a must-see when in Mumbai. Built to commemorate the arrival of King George V and his
+                        wife Queen Mary in 1911, this stunning piece of architecture was opened with much pomp and
+                        ceremony in 1924 and was, for a while, the tallest structure in the city.</strong>
+                </div>
+            </div><br><br>
+        </div>
+    </div>
+
+    <div class="container w1" style="background-image: radial-gradient(lightgray,lightpink);">
+        <div class="row r1">
+            <div class="col-3 f1">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-quote-left fa-2x"></i>
+                        <p class="card-text" style="text-align: justify;">I have never seen any site like this. it is
+                            Usefull
+                            for going trip and also such
+                            pretty offers.Nice customer reciving when contact their branch. I Really like this site very
+                            much...
+                        </p>
+                        <p class="text-center"><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+
+                    </div>
+                    <img class="card-img-bottom rounded-circle" src="../Day1/images/Red/user-2.png" alt="Card image"
+                        style="height:100px; margin: auto; padding: 10px; width:100px;">
+                    <small class="card-title fw-bold text-center">Rajesh</small>
+                </div>
+            </div>
+            <div class="col-3 f1">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa fa-quote-left fa-2x"></i>
+                        <p class="card-text" style="text-align: justify;">I have never seen any site like this. it is
+                            Usefull
+                            for going trip and also such
+                            pretty offers.Nice customer reciving when contact their branch. I Really like this site very
+                            much...
+                        </p>
+                        <p class="text-center"><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+
+                    </div>
+                    <img class="card-img-bottom rounded-circle" src="../Day1/images/Red/user-1.png" alt="Card image"
+                        style="height:100px; margin: auto; padding: 10px; width:100px;">
+                    <small class="card-title fw-bold text-center">Anusha</small>
+                </div>
+            </div>
+            <div class="col-3 f1">
+                <div class="card d-flex ">
+                    <div class="card-body">
+                        <i class="fa fa-quote-left fa-2x"></i>
+                        <p class="card-text" style="text-align: justify;">I have never seen any site like this. it is
+                            Usefull
+                            for going trip and also such
+                            pretty offers.Nice customer reciving when contact their branch. I Really like this site very
+                            much...
+                        </p>
+                        <p class="text-center"><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+
+                    </div>
+                    <img class="card-img-bottom rounded-circle" src="../Day1/images/Red/user-2.png" alt="Card image"
+                        style="height:100px; margin: auto; padding: 10px; width:100px;">
+                    <small class="card-title fw-bold text-center">Meera</small>
+                </div>
+            </div>
+            <div class="col-3 f1">
+                <div class="card d-flex ">
+                    <div class="card-body">
+                        <i class="fa fa-quote-left fa-2x"></i>
+                        <p class="card-text" style="text-align: justify;">I have never seen any site like this. it is
+                            Usefull
+                            for going trip and also such
+                            pretty offers.Nice customer reciving when contact their branch. I Really like this site very
+                            much...
+                        </p>
+                        <p class="text-center"><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </p>
+
+                    </div>
+                    <img class="card-img-bottom rounded-circle" src="../Day1/images/Red/user-3.png" alt="Card image"
+                        style="height:100px; margin: auto; padding: 10px; width:100px;">
+                    <small class="card-title fw-bold text-center">Deepthi</small>
+                </div>
+            </div>
+        </div><br>
+    </div>
+
+    <div class="container partners bg-light"> 
+        <div class="row partners">
+            <h2 class="text-center fw-bold">Our Partners</h2>
+            <div class="col-12">
+                <div class="row logo">
+                    <div class="col-2">
+                        <img src="../Day1/images/redbus-logo.png" height="80px" width="140px" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="../Day1/images/Red/logo-coca-cola.png"  alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="../Day1/images/ttt.png" class="mt-3" width="190px"alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="../Day1/images/Red/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="../Day1/images/Red/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="../Day1/images/Red/logo-philips.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <hr>
+        <div class="col-4">
+            <h3>Download our App</h3>
+            <p>Download App for Playstore and Applestore</p>
+            <img src="../Day1/images/play-store.png" height="50px">
+            <img src="../Day1/images/app-store.png" height="50px">
+        </div>
+        <div class="col-4">
+            <img src="../Day1/images/t1.jpg" height="100px"><br><br>
+            <p style="text-align: center; margin-left: 60px;">Safe journey and Secure <br>Read some tips that will
+                help
+                better navigate the local culture and fully enjoy your time.</p>
+        </div>
+        <div class="col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <li class="fa fa-facebook">&nbsp;Facebook</li><br>
+                <li class="fa fa-instagram">&nbsp;Instagram</li><br>
+                <li class="fa fa-youtube"> &nbsp;Youtube</li><br>
+                <li class="fa fa-twitter">&nbsp; Twitter</li><br>
+                <li class="fa fa-whatsapp">&nbsp; Whatsapp</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p id="p1">Copy Right &copy; Pack Your Bags| All Rights Reserved</p>
+</body>
+
+</html>
